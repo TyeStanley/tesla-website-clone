@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -10,13 +10,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-3xl font-bold underline p-2 ml-2">
+        <h1 className="ml-2 mr-2 border-spacing-2 p-2 text-3xl font-bold underline bg-blend-color">
           Hello World!
         </h1>
+        <button className="bg-sky-700 px-4 py-2 text-black hover:bg-sky-800 sm:px-8 sm:py-3">
+          ...
+        </button>
       </main>
-      <footer>
-
-      </footer>
+      <footer></footer>
     </>
-  )
+  );
 }
