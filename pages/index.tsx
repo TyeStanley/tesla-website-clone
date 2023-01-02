@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
@@ -9,14 +10,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1 className="ml-2 mr-2 border-spacing-2 p-2 text-3xl font-bold underline bg-blend-color">
-          Hello World!
-        </h1>
-        <button className="bg-sky-700 px-4 py-2 text-black hover:bg-sky-800 sm:px-8 sm:py-3">
-          ...
-        </button>
-      </main>
+      <Navbar />
+      <main></main>
       <footer></footer>
     </>
   );
