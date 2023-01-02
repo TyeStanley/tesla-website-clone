@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "name": "Model S",
+      "url": "/models"
+    },
+    {
+      "name": "Model 3",
+      "url": "/model3"
+    },
+    {
+      "name": "Model X",
+      "url": "/modelx"
+    },
+    {
+      "name": "Model Y",
+      "url": "/modely"
+    },
+    {
+      "name": "Solar Roof",
+      "url": "/solarroof"
+    },
+    {
+      "name": "Solar Panels",
+      "url": "/solarpanels"
+    }
+  ]
+}
