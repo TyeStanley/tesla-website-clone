@@ -14,9 +14,11 @@ export default function Home() {
       </Head>
       <Navbar />
       <main>
-        <section className="bg- relative h-screen w-screen flex-col justify-between bg-[url('../assets/ModelY.png')] bg-cover bg-center bg-no-repeat pt-px">
+        <section className="relative h-screen w-screen flex-col justify-between bg-[url('../assets/ModelY.png')] bg-cover bg-center pt-px">
           <div className="mx-auto pt-[calc(15vh_+_20px)] text-center font-['Gotham']">
-            <h1 className="text-[40px] font-medium text-[#171A20]">Model Y</h1>
+            <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px]">
+              Model Y
+            </h1>
             <p className="text-[14px] text-[#171A20] transition delay-300 ease-linear">
               <Link
                 href="/drive"
