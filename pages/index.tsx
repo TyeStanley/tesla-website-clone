@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <main>
-        <section className="relative h-screen w-screen flex-col justify-between bg-[url('../assets/ModelY.png')] bg-cover bg-center pt-px">
-          <div className="mx-auto pt-[calc(15vh_+_20px)] text-center font-['Gotham']">
+        <section className="relative h-screen w-screen flex-col justify-between bg-[url('../assets/ModelYMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelY.png')]">
+          <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
             <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px]">
               Model Y
             </h1>
