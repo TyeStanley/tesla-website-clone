@@ -7,10 +7,10 @@ module.exports = {
     "./components/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      sm: "600px",
-    },
     extend: {
+      screens: {
+        sm: "600px",
+      },
       animation: {
         "fade-up": "zoomin .4s linear 1s forwards",
         "fade-up2": "zoomin .4s linear 1.5s forwards",

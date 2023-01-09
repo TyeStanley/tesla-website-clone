@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Model S",
+    "url": "/models"
+  },
+  {
+    "name": "Model 3",
+    "url": "/model3"
+  },
+  {
+    "name": "Model X",
+    "url": "/modelx"
+  },
+  {
+    "name": "Model Y",
+    "url": "/modely"
+  },
+  {
+    "name": "Solar Roof",
+    "url": "/solarroof"
+  },
+  {
+    "name": "Solar Panels",
+    "url": "/solarpanels"
+  },
+  {
+    "name": "Existing Inventory",
+    "url": "/inventory/new"
+  },
+  {
+    "name": "Used Inventory",
+    "url": "/inventory/used"
+  },
+  {
+    "name": "Trade-In",
+    "url": "/inventory/used"
+  },
+  {
+    "name": "Demo Drive",
+    "url": "/drive"
+  },
+  {
+    "name": "Insurance",
+    "url": "/insurance"
+  },
+  {
+    "name": "Powerwall",
+    "url": "/powerwall"
+  },
+  {
+    "name": "Commercial Energy",
+    "url": "/commercial"
+  },
+  {
+    "name": "Utilities",
+    "url": "/utilities"
+  },
+  {
+    "name": "Charging",
+    "url": "/charging"
+  },
+  {
+    "name": "Find Us",
+    "url": "/findus"
+  },
+  {
+    "name": "Support",
+    "url": "/support"
+  },
+  {
+    "name": "Investor Relations",
+    "url": "/#quarterly-disclosure"
+  },
+  {
+    "name": "Shop",
+    "url": "/shop"
+  },
+  {
+    "name": "Account",
+    "url": "/teslaacount"
+  }
+]
