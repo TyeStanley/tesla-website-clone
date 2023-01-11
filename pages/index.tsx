@@ -32,12 +32,12 @@ export default function Home() {
               </p>
             </div>
             <div className="absolute left-0 right-0 bottom-[calc(9vh_+_24px)] mx-auto w-[90%] text-center sm:flex sm:w-[552px] sm:justify-between">
-              <button className="animate-button-left rounded bg-[#3D3F42]/[.9] py-2 px-6 text-white opacity-0 drop-shadow max-sm:mx-auto max-sm:block max-sm:w-[95%] sm:w-[264px]">
+              <button className="animate-fade-up2 rounded bg-[#3D3F42]/[.9] py-2 px-6 text-white opacity-0 drop-shadow max-sm:mx-auto max-sm:block max-sm:w-[95%] sm:w-[264px] sm:animate-button-left">
                 <span className="font-['Gotham'] text-[14px]">
                   Custom Order
                 </span>
               </button>
-              <button className="animate-button-right rounded bg-[#E8E7E4]/[.9] py-2 px-6 opacity-0 drop-shadow max-sm:mx-auto max-sm:mt-4 max-sm:w-[95%] sm:w-[264px]">
+              <button className="animate-fade-up2 rounded bg-[#E8E7E4]/[.9] py-2 px-6 opacity-0 drop-shadow max-sm:mx-auto max-sm:mt-4 max-sm:w-[95%] sm:w-[264px] sm:animate-button-right">
                 <span className="font-['Gotham'] text-[14px] text-[#3D3F42]">
                   View Inventory
                 </span>
