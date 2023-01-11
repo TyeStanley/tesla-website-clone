@@ -13,10 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet" />
       </Head>
-      <Navbar />
-      <main>
-        <div className="h-screen w-screen snap-y snap-mandatory overflow-scroll overflow-x-hidden scroll-smooth">
-          <section className="relative h-screen w-screen snap-center flex-col justify-between bg-[url('../assets/ModelYMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelY.png')]">
+      <div className="h-screen w-screen snap-y snap-mandatory overflow-x-hidden">
+        <Navbar />
+        <main>
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/ModelYMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelY.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="animate-fade-up text-[36px] font-medium text-[#171A20] opacity-0 sm:text-[40px] ">
                 Model Y
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative h-screen w-screen snap-center flex-col justify-between bg-[url('../assets/Model3Mobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/Model3.png')]">
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/Model3Mobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/Model3.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px]">
                 Model 3
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative h-screen w-screen snap-center flex-col justify-between bg-[url('../assets/ModelSMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelS.png')]">
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/ModelSMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelS.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px] ">
                 Model 3
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative h-screen w-screen snap-center flex-col justify-between bg-[url('../assets/ModelXMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelX.png')]">
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/ModelXMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/ModelX.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px] ">
                 Model S
@@ -132,7 +132,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative h-screen w-screen snap-center flex-col justify-between bg-[url('../assets/SolarPanelsMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/SolarPanels.png')]">
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/SolarPanelsMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/SolarPanels.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px] ">
                 Solar Panels
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative h-screen w-screen snap-center flex-col justify-between bg-[url('../assets/SolarRoofMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/SolarRoof.png')]">
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/SolarRoofMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/SolarRoof.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px] ">
                 Solar Roof
@@ -174,7 +174,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="relative h-[95vh] w-screen snap-center flex-col justify-between bg-[url('../assets/AccessoriesMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/Accessories.png')]">
+          <section className="relative h-screen w-[calc(100vw_-_17px)] snap-center flex-col justify-between bg-[url('../assets/AccessoriesMobile.png')] bg-cover bg-center pt-px sm:bg-[url('../assets/Accessories.png')]">
             <div className="mx-auto pt-[calc(13vh_+_24px)] text-center font-['Gotham']">
               <h1 className="text-[36px] font-medium text-[#171A20] sm:text-[40px] ">
                 Accessories
@@ -186,9 +186,9 @@ export default function Home() {
               </button>
             </div>
           </section>
-        </div>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }

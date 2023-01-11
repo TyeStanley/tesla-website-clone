@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-transparent p-3">
       <MenuModal isOpen={isOpen} closeModal={closeModal} />
-      <div className="flex items-center justify-between">
+      <div className="mr-2 flex items-center justify-between">
         <Link href="/" className="px-4">
           <Image src={teslaLogo} width={120} alt="Tesla Logo" />
         </Link>

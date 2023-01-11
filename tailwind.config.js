@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       screens: {
         sm: "600px",
+        xmd: "900px"
       },
       animation: {
         "fade-up": "zoomin .4s linear 1s forwards",
