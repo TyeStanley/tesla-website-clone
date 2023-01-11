@@ -31,14 +31,14 @@ export default function MenuModal({ isOpen, closeModal }: MenuModalProps) {
           <div className="">
             <Transition.Child
               as={Fragment}
-              enter="ease-out duration-300"
-              enterFrom="opacity-0 scale-95"
-              enterTo="opacity-100 scale-100"
-              leave="ease-in duration-200"
-              leaveFrom="opacity-100 scale-100"
-              leaveTo="opacity-0 scale-95"
+              enter="transition ease-in-out duration-500 transform"
+              enterFrom="opacity-0 translate-x-[55%]"
+              enterTo="opacity-100 translate-x-0"
+              leave="transition ease-out duration-500 transform"
+              leaveFrom="opacity-100 translate-x-0"
+              leaveTo="opacity-0 translate-x-[55%]"
             >
-              <Dialog.Panel className="h-[100vh] w-[300px] overflow-y-auto bg-white p-6 text-left shadow-xl transition-all">
+              <Dialog.Panel className="h-[100vh] w-[300px] overflow-y-auto bg-white p-6 text-left shadow-xl">
                 <div className="text-right">
                   <button
                     type="button"
